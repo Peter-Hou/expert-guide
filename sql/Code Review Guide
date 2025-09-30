@@ -1,0 +1,6 @@
+# Logic Checking
+
+Situation with complex architecture - many CTEs
+- Inspection of CTE could consider the following
+  - Are certain filters applied consistently to all CTEs, if not, why?
+    - e.g. Most of the CTE has time limit to 2025 records, there are a few doesn't, maybe they are tables with 2025 data only or limit of date do not concern them, understand what's the reason behind
